@@ -9,7 +9,7 @@ import clip
 from timm.models._manipulate import checkpoint_seq
 
 from .lora import lora_replace_attention_layers
-from util_data import SUBSET_NAMES, TEMPLATES_SMALL
+from util_data import CLASSNAMES, TEMPLATES_SMALL
 
 def get_dataset_name_for_template(dataset):
     dataset_name = {
@@ -96,7 +96,7 @@ class CLIP(nn.Module):
         print("Tokenizing text...")
 
         texts = []
-        for classname in SUBSET_NAMES[self.dataset]:
+        for classname in CLASSNAMES[self.dataset]:
 
             class_texts = []
             for template in self.templates:

@@ -11,7 +11,7 @@ from torch.utils.data import Dataset, DistributedSampler
 import torchvision as tv
 
 from util_data import (
-    SUBSET_NAMES,
+    CLASSNAMES,
     configure_metadata, get_image_ids, get_class_labels,
     RandomResizedCrop, GaussianBlur, Solarization
 )
@@ -121,7 +121,7 @@ class DatasetSynthImage(Dataset):
     def get_data(self):
         image_paths = []
         image_labels = []
-        for label, class_name in enumerate(SUBSET_NAMES[self.dataset]):
+        for label, class_name in enumerate(CLASSNAMES[self.dataset]):
             class_dir = ospj(self.synth_train_data_dir, class_name)
             count = 0
             for fname in os.listdir(class_dir):

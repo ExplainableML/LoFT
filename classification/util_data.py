@@ -12,9 +12,8 @@ from typing import List, Optional, Tuple, Union
 from torch import Tensor
 import numbers
 from collections.abc import Sequence
-# from torch.utils.data import Dataset
 
-SUBSET_NAMES = {
+CLASSNAMES = {
     "imagenet_subset": [
         "tench", "goldfish", "great white shark", "tiger shark", "hammerhead shark", "electric ray",
         ],

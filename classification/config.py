@@ -12,7 +12,7 @@ from utils import (
     bool_flag,
     init_distributed_mode,
 )
-from util_data import SUBSET_NAMES
+from util_data import CLASSNAMES
 
 _MODEL_TYPE = ("resnet50", "clip")
 
@@ -187,7 +187,7 @@ def get_args():
 
     args = parser.parse_args()
 
-    args.n_classes = len(SUBSET_NAMES[args.dataset])
+    args.n_classes = len(CLASSNAMES[args.dataset])
     args = set_data_dir(args)
     if args.is_distributed:
         init_distributed_mode(args)
