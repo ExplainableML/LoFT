@@ -1,6 +1,6 @@
-# Synthetic Data Generation with Few-shot Guidance
+# Synthetic Dataset Generation with Few-shot Guidance
 
-This repository contains the codebase of a series of projects on synthetic data generation with few-shot guidance. 
+This repository contains the codebase of a series of projects on synthetic dataset generation with few-shot guidance. 
 
 * [LoFT: LoRA-fused Dataset Generation with Few-shot Guidance](TBD), Arxiv.
 * [DataDream: Few-shot Guided Dataset Generation](https://arxiv.org/pdf/2407.10910), in ECCV, 2024.
