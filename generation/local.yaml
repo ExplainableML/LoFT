@@ -1,0 +1,3 @@
+save_dir: ./outputs
+sd_lora_dir: ../sd-finetune/outputs
+model_dir: SD2.1_MODEL_DIR

@@ -1,0 +1,14 @@
+
+classification/memo.txt
+classification/outputs
+classification/__pycache__
+classification/datasets
+classification/models/__pycache__
+
+sd-finetune/memo.txt
+sd-finetune/outputs
+sd-finetune/__pycache__
+
+generation/memo.txt
+generation/outputs
+generation/__pycache__

@@ -1,0 +1,6 @@
+
+output_dir: ./outputs
+synth_train_data_dir: ../generation/outputs
+real_test_data_dir: ./datasets
+metadata_dir: ./metadata
+clip_download_root: CLIP_DOWNLOAD_ROOT
