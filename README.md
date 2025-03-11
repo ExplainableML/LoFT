@@ -9,7 +9,7 @@ This repository contains the codebase of a series of projects on synthetic datas
 ## Preliminary Setup
 We use [Stable-Diffusion-2-1-base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base) as a base diffusion model.
 
-Also, few-shot real data should be formed in the following way. Assuming we use 16-shot, each data file should be located in the path `PATH_TO_REAL_FEWSHOT/$DATASET/shot$N_SHOT_seed$FEWSHOT_SEED/$CLASS_NAME/$FILE`. The list of `$CLASS_NAME` For each `$DATASET` can be found in `sd-finetune/util.py` file. For instance.
+Also, few-shot real data should be formed in the following way. Each data file should be located in the path `PATH_TO_REAL_FEWSHOT/$DATASET/shot$N_SHOT_seed$FEWSHOT_SEED/$CLASS_NAME/$FILE`. The list of `$CLASS_NAME` For each `$DATASET` can be found in `sd-finetune/util.py` file. For instance, when using a 16-shot setting, files should be located as follows:
 ```bash
 📂 data
 |_📂 real_train_fewshot
