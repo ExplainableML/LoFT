@@ -40,7 +40,7 @@ You can run LoFT, DataDream-class, and DataDream-dataset methods by following th
 1. Install the necessary dependencies in `requirements.txt`.
 2. **Finetune diffusion model**: Follow the instructions in the `sd-finetune` folder.
 3. **Dataset generation**: Follow the instructions in the `generation` folder.
-4. **Train Classification with synthetic data**: Follow the instructions in the `classification` folder.
+4. **Train classification model with synthetic data**: Follow the instructions in the `classification` folder.
 
 ## Citation
 
